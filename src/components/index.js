@@ -1,0 +1,5 @@
+export { default as Header } from "./Header/Header" 
+export { default as Home } from "./Home/Home" 
+export { default as Story } from "./Story/Story" 
+export { default as ProgressBar } from "./Story/ProgressBar/ProgressBar" 
+export { default as Modal } from "./Layouts/Modal/Modal" 
