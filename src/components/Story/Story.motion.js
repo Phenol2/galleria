@@ -139,4 +139,4 @@ export const exitThree = {
               duration: 0.4,
               ease: "linear",
               }
-          }        
+          }

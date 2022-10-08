@@ -89,12 +89,12 @@ const ProgressBar = ({
         </Title>
         <Buttons>
           <button disabled = {next}>
-            <MdOutlineSkipNext
+            <MdOutlineSkipPrevious
               onClick = {slideBackwardHandler}
           />
           </button>
           <button disabled = {prev}>
-            <MdOutlineSkipPrevious  
+            <MdOutlineSkipNext  
               onClick = {slideForwardHandler}/>
           </button>
         </Buttons>
