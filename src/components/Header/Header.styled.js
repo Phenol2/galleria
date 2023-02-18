@@ -15,6 +15,11 @@ export const HeaderWrapper = styled.div`
       letter-spacing: 1px;
       color: rgba(0, 0, 0, 0.5);
     }
+
+    @media only screen and (min-width: 1200px) {
+      width: 100vw;
+      padding: 22px 30px;
+    }
 `
 
 export const Logo = styled.h1`

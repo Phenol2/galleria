@@ -26,6 +26,7 @@ function App() {
       alignItems: "center",
       flexDirection: "column",
       position: "relative",
+      overflow: "hidden",
     }}>
      <Modal />
       <Header />

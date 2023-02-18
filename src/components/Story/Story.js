@@ -34,7 +34,9 @@ import {
   AuthorImg,
   Year,
   Description,
-  View
+  View,
+  Side,
+  Holder
 } from "./Story.styled"
 
 
@@ -72,6 +74,8 @@ const Story = () => {
     initial = "initial"
     animate = "animate"
     >
+      
+      <Holder>
       <View 
       as = {motion.div}
       variants = {childTwoVariant}
@@ -87,8 +91,6 @@ const Story = () => {
         initial = "initial"
         animate = "animate"
       >
-    
-      
         <motion.img  
           src = {singleStory.images.hero.small} 
           alt = {singleStory.name}
@@ -111,6 +113,7 @@ const Story = () => {
           alt = {singleStory.artist.name}
           />
       </Top>
+      <Side>
       <Year
         as = {motion.p}
         variants = { childFourVariant }
@@ -134,6 +137,8 @@ const Story = () => {
       >
         GO TO SOURCE
       </motion.a>
+      </Side>
+      </Holder>
     </Container>
     <ProgressBar
          singleStory = {singleStory}

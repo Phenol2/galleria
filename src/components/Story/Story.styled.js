@@ -16,14 +16,21 @@ export const Container = styled.div`
       padding-right: 15px;
       margin-block: 70px 120px;
     }
+
+    @media only screen and (min-width: 1200px) {
+    
+    }
 `
 
 export const Top = styled.div`
-    width: 100%;
     position: relative;
     
     & > img:nth-child(1){
       width: 100%;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      width: 600px;
     }
     
 `
@@ -45,6 +52,13 @@ export const View = styled.div`
       & > svg{
         font-size: 18px;
         font-weight: bold;
+      }
+
+      @media only screen and (min-width: 1200px) {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        z-index: 100;
       }
 `
 
@@ -93,4 +107,28 @@ export const Description = styled.p`
     color: rgba(0, 0, 0, 0.7);
     text-align: justify;
     margin-top: 0px;
+
+    @media only screen and (min-width: 1200px) {
+      width: 300px;
+    }
+`
+
+export const Side = styled.div`
+@media only screen and (min-width: 1200px) {
+  width: 400px;
+}
+`
+export const Holder = styled.div`
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+    position: relative;
+
+    @media only screen and (min-width: 1200px) {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 200px;
+      padding-inline: 10px;
+      gap: 60px;
+    }
 `

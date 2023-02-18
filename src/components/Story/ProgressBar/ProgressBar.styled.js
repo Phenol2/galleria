@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const Container = styled.div`
     position: relative;
     width: 100vw;
+
 `
 export const Line = styled.div`
       position: absolute;
@@ -16,7 +17,7 @@ export const Line = styled.div`
 
 
 export const Wrapper = styled.div`
-    width: 100%;
+    width: 100vw;
     padding: 20px 10px;
     display: flex;
     position: fixed;
